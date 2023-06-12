@@ -8,24 +8,49 @@ div.wrapper{
     max-width: 990px;
     margin: 0 auto;
 }
-div.button ul li{
-    width: 33.33%;
-    margin: 10px;
+#button ul li{
+    width: 30%;
+    margin: 0 auto;
     list-style-type: none;
+    display: inline-block;
 }
-div.button ul li img{
+#button ul li img{
     display: block;
     width: 100%;
 }
-div.content{
+#content{
     height: 500px;
 }
-div.content #ramen{
-    background-color: white;
+h2{
+    text-align: center;
 }
-div.content #hitsumabushi{
-    background-color: grey;
+#content #ramen h2{
+    background-color: rgb(211, 237, 255);
 }
-div.content #kare{
-    background-color: white;
+#content #ramen p{
+    background-color: rgb(211, 237, 255);
+}
+#content #ramen ul li{
+    background-color: rgb(211, 237, 255);
+    list-style-type: none;
+}
+#content #hitsumabushi h2{
+    background-color: rgb(165, 200, 224);
+}
+#content #hitsumabushi p{
+    background-color: rgb(165, 200, 224);
+}
+#content #hitsumabushi ul li{
+    background-color: rgb(165, 200, 224);
+    list-style-type: none;
+}
+#content #kare h2{
+    background-color: rgb(211, 237, 255);
+}
+#content #kare p{
+    background-color: rgb(211, 237, 255);
+}
+#content #kare ul li{
+    background-color: rgb(211, 237, 255);
+    list-style-type: none;
 }
