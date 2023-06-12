@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.wrapper{
+    width: 100%;
+    max-width: 990px;
+    margin: 0 auto;
+}
+div.button ul li{
+    width: 33.33%;
+    margin: 10px;
+}
+div.button ul li img{
+    display: block;
+    width: 100%;
+}
+div.content{
+    height: 500px;
+}
+div.content #ramen{
+    background-color: white;
+}
+div.content #hitsumabushi{
+    background-color: grey;
+}
+div.content #kare{
+    background-color: white;
+}
