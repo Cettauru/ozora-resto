@@ -19,7 +19,6 @@ div.button-food{
     position: absolute;
 }
 #top{
-    background-color: rgb(199, 223, 227);
     position: relative;
 }
 .button-food ul li{
@@ -34,4 +33,27 @@ div.button-food{
 }
 h2{
     text-align: center;
+}
+.container{
+    background-color: rgb(199, 223, 227);
+    position: relative;
+}
+#content #ramen{
+    background-color: rgb(199, 223, 227);
+    position: relative;
+    top: 400px;
+}
+#content #hitsumabushi{
+    background-color: rgb(199, 223, 227);
+    position: relative;
+    top: 450px;
+}
+#content #kare{
+    background-color: rgb(199, 223, 227);
+    position: relative;
+    top: 500px;
+}
+#bottom{
+    position: relative;
+    bottom: 0;
 }
