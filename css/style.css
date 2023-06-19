@@ -35,11 +35,13 @@ body{
     margin: 0 auto;
 }
 #menu01 p{
+    color: white;
     padding-left: 95px;
     padding-right: 95px;
     font-size: 22px;
 }
 #menu01 ul li{
+    color: white;
     font-size: 22px;
     padding-left: 95px;
     padding-right: 95px;
@@ -49,6 +51,7 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 20px;
 }
 #menu02{
     background: url(img/background-hitsumabushi.png);
@@ -57,20 +60,23 @@ body{
     margin: 0 auto;
 }
 #menu02 p{
+    color: white;
     padding-left: 95px;
     padding-right: 95px;
     font-size: 22px;
 }
 #menu02 ul li{
+    color: white;
     font-size: 22px;
     padding-left: 95px;
     padding-right: 95px;
     list-style-type: none;
 }
-#menu02{
+#menu02 img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 20px;
 }
 #menu03{
     background: url(img/background-kare.png);
@@ -79,11 +85,13 @@ body{
     margin: 0 auto;
 }
 #menu03 p{
+    color: white;
     padding-left: 95px;
     padding-right: 95px;
     font-size: 22px;
 }
 #menu03 ul li{
+    color: white;
     font-size: 22px;
     padding-left: 95px;
     padding-right: 95px;
@@ -93,6 +101,7 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 20px;
 }
 #voucher{
     background: url(img/background-voucher.png);
@@ -106,4 +115,27 @@ body{
     margin-left: auto;
     margin-right: auto;
     padding-top: 75px;
+}
+#access-note1{
+    font-size: 35px;
+    color: rgb(199, 223, 227);
+    text-align: center;
+}
+#access-note2{
+    font-size: 20px;
+    color: rgb(199, 223, 227);
+    text-align: center;
+}
+#bottom{
+    background: url(img/background-access.png);
+    width: 100%;
+    max-width: 990;
+    margin: 0 auto;
+    min-height: 535px;
+}
+#bottom img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 300px;
 }
