@@ -13,6 +13,7 @@ body{
 }
 #top{
     background: url(img/background-button.png);
+    max-height: 1060px;
 }
 .menu ul li{
     list-style-type: none;
@@ -21,13 +22,17 @@ body{
 .menu img{
     width: 32%;
 }
+.snow-button img{
+    position: relative;
+    bottom: 280px;
+}
 .menu-name{
     text-align: center;
 }
 .menu-name{
     position: relative;
     text-align: center;
-    bottom: 90px;
+    bottom: 380px;
 }
 .highlight{
     background-color: rgb(229, 136, 17);
@@ -41,6 +46,7 @@ body{
 }
 #menu01{
     background: url(img/background-ramen.png);
+    background-repeat: no-repeat;
     max-width: 990px;
     min-height: 535px;
     margin: 0 auto;
@@ -64,6 +70,10 @@ body{
     margin-right: auto;
     padding-top: 20px;
     padding-bottom: 0px;
+}
+.snow01 img{
+    position: relative;
+    bottom: 450px;
 }
 #menu02{
     background: url(img/background-hitsumabushi.png);
