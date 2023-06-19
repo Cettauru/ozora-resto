@@ -24,9 +24,20 @@ body{
 .menu-name{
     text-align: center;
 }
-.menu-name img{
+.menu-name{
     position: relative;
-    bottom: 70px;
+    text-align: center;
+    bottom: 90px;
+}
+.highlight{
+    background-color: rgb(229, 136, 17);
+    padding: 2px;
+}
+.icon{
+    size: 50%;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
 }
 #menu01{
     background: url(img/background-ramen.png);
@@ -52,6 +63,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     padding-top: 20px;
+    padding-bottom: 0px;
 }
 #menu02{
     background: url(img/background-hitsumabushi.png);
@@ -77,6 +89,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     padding-top: 20px;
+    padding-bottom: 0px;
 }
 #menu03{
     background: url(img/background-kare.png);
@@ -102,6 +115,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     padding-top: 20px;
+    padding-bottom: 0px;
 }
 #voucher{
     background: url(img/background-voucher.png);
