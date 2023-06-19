@@ -3,3 +3,48 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: white;
+}
+#wrapper{
+    width: 100%;
+    max-width: 990px;
+    margin: 0 auto;
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline;
+}
+.menu img{
+    width: 32%;
+}
+.menu-name{
+    text-align: center;
+}
+#menu01{
+    background: url(img/background-menu01.png);
+    max-width: 990px;
+    min-height: 535px;
+    margin: 0 auto;
+}
+#menu01 p ul li{
+    list-style-type: none;
+}
+#menu02{
+    background: url(img/background-menu02.png);
+    max-width: 990px;
+    min-height: 535px;
+    margin: 0 auto;
+}
+#menu02 p ul li{
+    list-style-type: none;
+}
+#menu03{
+    background: url(img/background-menu03.png);
+    max-width: 990px;
+    min-height: 535px;
+    margin: 0 auto;
+}
+#menu p ul li{
+    list-style-type: none;
+}
