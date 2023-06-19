@@ -72,6 +72,8 @@ body{
     padding-bottom: 0px;
 }
 .snow01 img{
+    width: 100%;
+    margin: 0 auto;
     position: relative;
     bottom: 450px;
 }
