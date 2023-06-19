@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=Edge">
         <meta name="viewport" content="width=device-width, initial scale=1.0">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="style-2.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500&display=swap" rel="stylesheet"> 
@@ -21,37 +21,30 @@
         <title>Ozora Resto</title>
     </head>
     <body>
-        <div class="wrapper">
+        <div id="wrapper">
             <div id="top">
-                <div class="title">
-                    <img src="img/title-img.png" alt="title picture">
-                    <div class="container">
-                        <div class="button-square"><img src="img/button-square.png"></div>
-                        <div class="button-food">
-                            <ul>
-                                <li>
-                                    <a href="#ramen">
-                                    <img src="img/button-ramen.png">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#hitsumabushi">
-                                    <img src="img/button-hitsumabushi.png">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#kare">
-                                    <img src="img/button-kare.png">
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                <div class="main-visual">
+                    <img src="img/title-img.png">
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#menu01"></a>
+                            <img src="img/button-ramen.png"></li>
+                        <li><a href="#menu02"></a>
+                            <img src="img/button-hitsumabushi.png"></li>
+                        <li><a href="#menu03"></a>
+                            <img src="img/button-kare.png"></li>
+                    </ul>
+                </div>
+                <div class="menu-name">
+                    <img src="img/text-menuname.png">
                 </div>
             </div>
             <div id="content">
-                <div id="ramen">
-                    <h2>牛タンラーメン</h2>
+                <div id="menu01">
+                    <div class="menu-title-1">
+                        <img src="img/title-ramen.png">
+                    </div>
                     <p>日本全国に人気の厚切り牛たんラーメン。<br>
                         <ul>
                             <li>◎大盛り【350g：＋100円(税込)】・小盛り【150g：－50円(税込)】もできます。</li>
@@ -59,8 +52,10 @@
                         </ul>
                     </p>
                 </div>
-                <div id="hitsumabushi">
-                    <h2>ひつまぶし</h2>
+                <div id="menu02">
+                    <div class="menu-title-2">
+                        <img src="img/title-hitsumabushi.png">
+                    </div>
                     <p>強火の遠火で焼き上げる名古屋名物のひつまぶし。<br>
                         <ul>
                             <li>◎大盛り【350g：＋100円(税込)】・小盛り【150g：－50円(税込)】もできます。</li>
@@ -68,8 +63,10 @@
                         </ul>
                     </p>
                 </div>
-                <div id="kare">
-                    <h2>魚介カレー</h2>
+                <div id="menu03">
+                    <div class="menu-title-3">
+                        <img src="img/title-kare.png">
+                    </div>
                     <p>エビ・あさり・イカが旨味たっぷりの魚介カレー。<br>
                         <ul>
                             <li>◎大盛り【350g：＋100円(税込)】・小盛り【150g：－50円(税込)】もできます。</li>
@@ -80,8 +77,7 @@
                 <div id="voucher"></div>
             </div>
             <div id="bottom">
-                <h2>アクセス</h2>
-                <p>小田急線 世田谷代田駅 南口から徒歩3分。</p>
+                <div id="access"></div>
             </div>
         </div>
     </body>
