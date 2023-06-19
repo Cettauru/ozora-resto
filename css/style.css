@@ -27,7 +27,15 @@ body{
     min-height: 535px;
     margin: 0 auto;
 }
-#menu01 p ul li{
+#menu01 p{
+    padding-left: 95px;
+    padding-right: 95px;
+    font-size: 22px;
+}
+#menu01 ul li{
+    font-size: 22px;
+    padding-left: 95px;
+    padding-right: 95px;
     list-style-type: none;
 }
 #menu02{
@@ -36,7 +44,15 @@ body{
     min-height: 535px;
     margin: 0 auto;
 }
-#menu02 p ul li{
+#menu02 p{
+    padding-left: 95px;
+    padding-right: 95px;
+    font-size: 22px;
+}
+#menu02 ul li{
+    font-size: 22px;
+    padding-left: 95px;
+    padding-right: 95px;
     list-style-type: none;
 }
 #menu03{
@@ -45,6 +61,14 @@ body{
     min-height: 535px;
     margin: 0 auto;
 }
-#menu p ul li{
+#menu03 p{
+    padding-left: 95px;
+    padding-right: 95px;
+    font-size: 22px;
+}
+#menu03 ul li{
+    font-size: 22px;
+    padding-left: 95px;
+    padding-right: 95px;
     list-style-type: none;
 }
