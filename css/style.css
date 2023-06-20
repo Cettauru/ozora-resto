@@ -22,17 +22,28 @@ body{
 .menu img{
     width: 32%;
 }
+.menu a:link{
+    opacity: 100%;
+}
+.menu a:visited{
+    opacity: 100%;
+}
+.menu a:hover{
+    opacity: 90%;
+}
 .snow-button img{
     position: relative;
     bottom: 280px;
+    margin: 0;
 }
 .menu-name{
     text-align: center;
 }
-.menu-name{
+.menu-name img{
     position: relative;
     text-align: center;
     bottom: 380px;
+    margin: 0;
 }
 .highlight{
     background-color: rgb(229, 136, 17);
@@ -79,6 +90,7 @@ body{
 }
 #menu02{
     background: url(img/background-hitsumabushi.png);
+    background-repeat: no-repeat;
     max-width: 990px;
     min-height: 535px;
     margin: 0 auto;
@@ -103,8 +115,15 @@ body{
     padding-top: 20px;
     padding-bottom: 0px;
 }
+.snow02{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 450px;
+}
 #menu03{
     background: url(img/background-kare.png);
+    background-repeat: no-repeat;
     max-width: 990px;
     min-height: 535px;
     margin: 0 auto;
@@ -128,6 +147,12 @@ body{
     margin-right: auto;
     padding-top: 20px;
     padding-bottom: 0px;
+}
+.snow03{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 450px;
 }
 #voucher{
     background: url(img/background-voucher.png);
